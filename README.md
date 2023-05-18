@@ -29,8 +29,8 @@ free to refactor your CSS and try multiple approaches!
 
 ## Phase 1 - Borders
 
-The first step is to add borders around two boxes. The first box with have
-a border that is:
+The first step is to add borders around two boxes. The first box will have a
+border that is:
 
 1. width of 5px
 2. blue
@@ -55,7 +55,7 @@ Next, use the rgb property to change the `color` of the second text.
 
 Set the rgb of the text `color` to (235, 62, 71).
 
-Finally, the boxes text will be easier to read with the set `background-color`.
+Finally, the box's text will be easier to read with the set `background-color`.
 
 ## Phase 3 - Opacity
 
@@ -73,8 +73,8 @@ Next, add box shadows to boxes 5 and 6.
 
 Box 5 requires a box shadow with:
 
-1. 8px beneath it
-2. 2 px to the right
+1. 20px beneath it
+2. 8px to the right
 3. a blur-radius of 15px
 4. a teal shadow
 
