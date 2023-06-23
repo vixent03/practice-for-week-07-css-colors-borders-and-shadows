@@ -1,59 +1,71 @@
+h2 {
+    opacity: 0.5;
+}
+
 .box1 {
-  background-color: blueviolet;
+    background-color: #8a2be2;
+    border: 5px solid blue;
+    color: #FFC300;
 }
 
 .box2 {
-  background-color: greenyellow;
+    background-color: greenyellow;
+    border: dotted red;
+    border-radius: 5px;
+    border-width: 2px;
+    color: rgb(235, 62, 71);
 }
 
 .text1 {
-  background-color: blue;
+    background-color: blue;
 }
 
 .text2 {
-  background-color: burlywood;
+    background-color: burlywood;
 }
 
 .box3 {
-  background-color: rgb(230, 230, 250);
+    background-color: rgb(230, 230, 250, .6);
 }
 
 .box5 {
-  background-color: lemonchiffon;
+    background-color: lemonchiffon;
+    box-shadow: 20px 8px 15px teal;
 }
 
 .box6 {
-  background-color: papayawhip;
+    background-color: papayawhip;
+    box-shadow: 5px -10px rgb(#800000);
 }
 
 
 /* do not change below this line */
 
 body {
-  padding: 20px;
+    padding: 20px;
 }
 
 .container {
-  position: relative;
+    position: relative;
 }
 
 .box4 {
-  top: 0;
-  left: 5px;
-  background-color: hotpink;
-  position: absolute;
-  z-index: -1;
+    top: 0;
+    left: 5px;
+    background-color: hotpink;
+    position: absolute;
+    z-index: -1;
 }
 
 .text {
-  width: 500px;
-  padding: 5px;
-  margin: 20px;
+    width: 500px;
+    padding: 5px;
+    margin: 20px;
 }
 
 .box {
-  width: 100px;
-  height: 100px;
-  margin: 0 20px;
-  box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    box-sizing: border-box;
 }
